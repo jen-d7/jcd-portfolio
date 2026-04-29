@@ -19,19 +19,31 @@
 	
 	/*navbar source: https://www.w3schools.com/css/css_navbar_vertical.asp*/
 	ul {
+		display: flex;
+		justify-content: center;
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		width: 200px;
+		/*dth: 200px;*/
 		background-color: #673B7A;
+	}
+	
+	li {
+		display: inline-block;
 	}
 	
 
 	li a {
-	  display: block;
+	  display: inline-block;
 	  color: lavender;
 	  padding: 8px 16px;
 	  text-decoration: none;
+
+	}
+	
+	li a:hover {
+		background-color: purple
+
 	}
 
 	
