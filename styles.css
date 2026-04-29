@@ -78,8 +78,7 @@
 		font-size: 4em;
 		font-weight: bold;
 		text-align: center;
-		margin-top: 1.0em;
-		margin-bottom: 1.0em;
+		margin-bottom: .3em;
 	}
 	/*section headers*/
 	h2 {
@@ -93,8 +92,8 @@
 	}
 	/*Oh look the paragraph text*/
 	p {
-		margin: 4em;
-		padding: 3em;
+		margin-left: 3.0em;
+		margin-right: 3.0em;
 		text-indent: 40px;
 		font-family: Georgia, serif;
 		color: #3A114C;
