@@ -21,5 +21,5 @@ document.getElementById("contact-form").addEventListener("submit", function(even
   alert(`Hello, ${name}!`);
 
   // clear form
-  document.getElementById("contact-form").reset();
+  //document.getElementById("contact-form").reset();
 });
