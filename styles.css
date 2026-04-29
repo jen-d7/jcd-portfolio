@@ -73,7 +73,7 @@
 	}
 	/*title header at the top of the page*/
 	h1 {
-		font: italic 200% 'Brush Script MT', cursive;
+		font: 'Brush Script MT', cursive;
 		color: #673B7A;
 		font-size: 4em;
 		font-weight: bold;
