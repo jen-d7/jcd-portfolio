@@ -1,0 +1,92 @@
+<style>
+	/*CSS page for all my formatting*/
+	footer {
+		/*It's fine as is*/
+	}
+	/*images*/
+
+	/* Only wraps text around this specific image */
+	.wrap-img {
+	  float: left;
+	  margin-right: 2em;
+
+	}
+	
+	.wrap-img-right {
+		float: right;
+		margin-left: 2em;
+	}
+	
+	/*navbar source: https://www.w3schools.com/css/css_navbar_vertical.asp*/
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 200px;
+		background-color: #673B7A;
+	}
+	
+
+	li a {
+	  display: block;
+	  color: lavender;
+	  padding: 8px 16px;
+	  text-decoration: none;
+	}
+
+	
+	/*end of navbar*/
+
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: 500px;
+	}
+	
+	/*captions under images*/
+	figcaption {
+		font-family: Georgia, serif;
+		color: #3A114C;
+		font-size: 1em;
+		text-align: center;
+		margin-top: 1.0em;
+		margin-bottom: 1.0em;
+	}
+	/*title header at the top of the page*/
+	h1 {
+		font-family: Georgia, serif;
+		color: #673B7A;
+		font-size: 4em;
+		font-weight: bold;
+		font-variant: small-caps;
+		text-align: center;
+		margin-top: 1.0em;
+		margin-bottom: 1.0em;
+	}
+	/*section headers*/
+	h2 {
+		font-family: Georgia, serif;
+		color: #3A114C;
+		font-size: 1.6em;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 1.0em;
+		margin-bottom: 1.0em;
+	}
+	/*Oh look the paragraph text*/
+	p {
+		text-indent: 40px;
+		font-family: Georgia, serif;
+		color: #3A114C;
+		font-size: 1em;
+		margin-top: 1.0em;
+		margin-bottom: 1.0em;
+	}
+	/*I wanted the page to have this faint lavender background that's pretty. Oh, and margins*/
+	body {
+		margin: 3em;
+		padding: 3em;
+		background-color: #E1D7EA;
+	}
+</style>
