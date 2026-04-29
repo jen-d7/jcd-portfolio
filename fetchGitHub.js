@@ -19,7 +19,7 @@ document.getElementById("searchBtn").addEventListener("click", async () => {
 
     profileDiv.innerHTML = `
       <div class="card">
-        <img src="${data.avatar_url}" width="100" />
+        <img src="${data.avatar_url}" width="100" height="100" />
         <h2>${data.name ?? data.login}</h2>
         <p>${data.bio ?? "No bio available"}</p>
         <p>Followers: ${data.followers}</p>
