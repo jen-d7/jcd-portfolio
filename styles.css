@@ -93,6 +93,8 @@
 	}
 	/*Oh look the paragraph text*/
 	p {
+		margin: 4em;
+		padding: 3em;
 		text-indent: 40px;
 		font-family: Georgia, serif;
 		color: #3A114C;
@@ -102,8 +104,8 @@
 	}
 	/*I wanted the page to have this faint lavender background that's pretty. Oh, and margins*/
 	body {
-		margin: 3em;
-		padding: 3em;
+		/*margin: 3em;
+		padding: 3em;*/
 		background-color: #E1D7EA;
 	}
 </style>
