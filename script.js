@@ -17,6 +17,10 @@ document.getElementById("contact-form").addEventListener("submit", function(even
   formMessage.textContent = "Message sent successfully!";
   formMessage.style.color = "green";
 
+  //Greet!
+  const name = document.getElementById("name").value;
+  alert(`Hello, ${name}!`);
+
   // clear form
   document.getElementById("contact-form").reset();
 });
