@@ -22,12 +22,12 @@
 	
 	/*navbar source: https://www.w3schools.com/css/css_navbar_vertical.asp*/
 	ul {
-		display: flex !important;
-		justify-content: center !important;
-		list-style-type: none !important;
-		margin: 0 !important;
-		padding: 0 !important;
-		background-color: #673B7A !important;
+		display: flex;
+		justify-content: center;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: #673B7A;
 	}
 	
 	/*li {
@@ -36,15 +36,16 @@
 	
 
 	li a {
-	  display: inline-block !important;
-	  color: lavender !important;
-	  padding: 8px 16px !important;
-	  text-decoration: none !important;
+	  	display: inline-block;
+	  	color: lavender !important;
+	  	padding: 8px 16px;
+	  	text-decoration: none !important;
 
 	}
 	
 	li a:hover {
 		background-color: purple !important;
+		text-decoration: none !important;
 
 	}
 
