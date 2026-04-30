@@ -20,7 +20,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 
   emailjs.send("service_9ufphl6", "template_ihoqkgn", params)
     .then(function() {
-        alert(`Hello, ${name}! Message sent successfully!`);
+        alert(`Hello, ${name}! Message sent successfully! Thank you for your email. Please allow 24-48 hours for a response.`);
         document.getElementById("contact-form").reset();
     })
     .catch(function(error) {
