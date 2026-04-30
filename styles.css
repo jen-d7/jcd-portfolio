@@ -7,14 +7,16 @@
 
 	/* Only wraps text around this specific image */
 	.wrap-img {
-	  float: left;
-	  margin-right: 2em;
+		float: left;
+		margin-right: 2em;
+		margin-left: 3em;
 
 	}
 	
 	.wrap-img-right {
 		float: right;
 		margin-left: 2em;
+		margin-right: 3em;
 	}
 	
 	/*navbar source: https://www.w3schools.com/css/css_navbar_vertical.asp*/
