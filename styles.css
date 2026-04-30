@@ -53,6 +53,13 @@
 		color: #3A114C;
 		text-align: center;
 	}
+	/*Image carousel for art gallery*/
+	.carousel-item img {
+	  	width: 100%;
+	  	height: 500px;        /* or whatever height you want */
+	  	background: #111;
+	  	object-fit: contain;    /* prevents stretching */
+	}
 
 	
 	/*end of navbar*/
