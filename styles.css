@@ -169,6 +169,15 @@
 	}
 
 
+	#search-container {
+	  display: flex;
+	  justify-content: center; /* center horizontally*/
+	  align-items: center;     /* align vertically*/
+	  gap: 10px;            
+	  margin-top: 50px;
+	}
+
+
 
 
 
