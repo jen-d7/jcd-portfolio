@@ -9,14 +9,14 @@
 	.wrap-img {
 		float: left;
 		margin-right: 2em;
-		margin-left: 3em;
+		margin-left: 5em;
 
 	}
 	
 	.wrap-img-right {
 		float: right;
 		margin-left: 2em;
-		margin-right: 3em;
+		margin-right: 5em;
 	}
 	
 	/*navbar source: https://www.w3schools.com/css/css_navbar_vertical.asp*/
@@ -94,8 +94,8 @@
 	}
 	/*Oh look the paragraph text*/
 	p {
-		margin-left: 3.0em;
-		margin-right: 3.0em;
+		margin-left: 5.0em;
+		margin-right: 5.0em;
 		text-indent: 40px;
 		font-family: Georgia, serif;
 		color: #3A114C;
