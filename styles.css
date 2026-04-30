@@ -103,7 +103,7 @@
 	}
 	/*Oh look the paragraph text*/
 	.container {
-	  	max-width: 80ch;
+	  	max-width: 100ch;
 	  	margin: 0 auto;
 		  padding: 0 1rem;
 	}
