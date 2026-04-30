@@ -109,6 +109,16 @@
 		margin-top: 1.0em;
 		margin-bottom: 1.0em;
 	}
+
+	h2 {
+		font-family: Georgia, serif;
+		color: #3A114C;
+		font-size: 1.2em;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 1.0em;
+		margin-bottom: 1.0em;
+	}
 	/*Oh look the paragraph text*/
 	.container {
 	  	max-width: 100ch;
