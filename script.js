@@ -20,18 +20,16 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 
   emailjs.send("service_9ufphl6", "template_ihoqkgn", params)
     .then(function() {
-        formMessage.textContent = "Message sent successfully!";
-        formMessage.style.color = "green";
+        alert(`Hello, ${name}! Message sent successfully!`);
         document.getElementById("contact-form").reset();
     })
     .catch(function(error) {
-        formMessage.textContent = "Failed to send message.";
-        formMessage.style.color = "red";
+        alert(`Error: Failed to send message`);
         console.error(error);
     });
 
   //Greet!
-  alert(`Hello, ${name}!`);
+  
 
   // clear form
   //document.getElementById("contact-form").reset();
