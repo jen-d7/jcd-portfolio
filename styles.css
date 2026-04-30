@@ -47,6 +47,14 @@
 
 	}
 
+	footer {
+		font-family: Georgia, serif;
+		color: #3A114C;
+		justify-content: center;
+	  	align-items: center;
+	  	padding: 40px;
+	}
+
 	
 	/*end of navbar*/
 
