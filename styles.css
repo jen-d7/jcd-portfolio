@@ -1,8 +1,11 @@
 <style>
 	/*CSS page for all my formatting*/
-	footer {
-		/*It's fine as is*/
+	li {
+		display: inline-block;
 	}
+	/*footer {*/
+		/*It's fine as is*/
+	/*}*/
 	/*images*/
 
 	/* Only wraps text around this specific image */
@@ -29,9 +32,9 @@
 		background-color: #673B7A;
 	}
 	
-	li {
+	/*li {
 		display: inline-block;
-	}
+	}*/
 	
 
 	li a {
